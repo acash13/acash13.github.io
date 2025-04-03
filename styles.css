@@ -544,12 +544,16 @@ body {
     transition: color 0.3s ease;
 }
 
-.social-links a i {
+.social-links a:hover {
+    color: var(--secondary-color);
+}
+
+.social-links i {
     font-size: 2rem;
 }
 
-.social-links a:hover {
-    color: var(--secondary-color);
+.social-links span {
+    font-size: 1.2rem;
 }
 
 /* Footer */
