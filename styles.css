@@ -579,18 +579,19 @@ footer {
     }
 }
 
-.Technical Skills {
+/* Technical Skills Section */
+.Technical-Skills {
     padding: 5rem 1rem;
     background-color: var(--light-bg);
 }
 
-.Technical Skills h2 {
+.Technical-Skills h2 {
     text-align: center;
     margin-bottom: 3rem;
     color: var(--primary-color);
 }
 
-.Technical Skills-grid {
+.Technical-Skills-grid {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
@@ -637,7 +638,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .Technical Skills-grid {
+    .Technical-Skills-grid {
         grid-template-columns: 1fr;
     }
 } 
