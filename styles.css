@@ -452,6 +452,7 @@ body {
 /* Contact Section */
 .contact {
     padding: 5rem 1rem;
+    background-color: var(--light-bg);
 }
 
 .contact h2 {
@@ -463,9 +464,9 @@ body {
 .contact-content {
     max-width: 1200px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #contact-form {
@@ -503,9 +504,16 @@ body {
 }
 
 .contact-info {
+    text-align: center;
+    width: 100%;
+}
+
+.contact-items-container {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
 }
 
 .contact-item {
@@ -521,27 +529,38 @@ body {
 
 .social-links {
     display: flex;
-    gap: 1.5rem;
-    margin-top: 1rem;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
 }
 
 .social-links a {
-    color: var(--primary-color);
-    font-size: 1.2rem;
-    transition: all 0.3s ease;
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: var(--light-bg);
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: var(--white);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .social-links a:hover {
-    color: var(--white);
-    background-color: var(--secondary-color);
-    transform: translateY(-3px);
+    color: var(--secondary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.social-links i {
+    font-size: 1.5rem;
+}
+
+.social-links span {
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
 /* Footer */
@@ -579,19 +598,18 @@ footer {
     }
 }
 
-/* Technical Skills Section */
-.Technical-Skills {
+.Technical Skills {
     padding: 5rem 1rem;
     background-color: var(--light-bg);
 }
 
-.Technical-Skills h2 {
+.Technical Skills h2 {
     text-align: center;
     margin-bottom: 3rem;
     color: var(--primary-color);
 }
 
-.Technical-Skills-grid {
+.Technical Skills-grid {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
@@ -638,7 +656,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .Technical-Skills-grid {
+    .Technical Skills-grid {
         grid-template-columns: 1fr;
     }
 } 
