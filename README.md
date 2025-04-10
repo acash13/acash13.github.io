@@ -1,4 +1,4 @@
-# acash13.github.io
+# portfolio website
 
 Welcome to my personal portfolio website! This site is built with **HTML**, **CSS**, and **JavaScript**, and it's hosted via **GitHub Pages**.
 
