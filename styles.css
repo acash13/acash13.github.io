@@ -92,6 +92,11 @@ body {
     margin-bottom: 1.5rem;
 }
 
+.hero-content p {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
 .cta-button {
     display: inline-block;
     padding: 1rem 2rem;
@@ -129,7 +134,7 @@ body {
 
 .about-image img {
     width: 100%;
-    max-width: 400px;
+    max-width: 385px;
     max-height: 400px;
     object-fit: contain;
     border-radius: 10px;
